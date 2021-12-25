@@ -1,0 +1,145 @@
+/*--------------------------------------------------------lets-build---------------------------------------*/
+*{	 
+	margin: 0;
+	padding: 0;
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: 600;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: 120% !important;
+     color: #1f1f1f;
+     margin: 0 ;
+     font-family: 'Rubik', sans-serif;
+}
+
+ h1 {
+     font-size: 24px 
+}
+ h2 {
+     font-size: 22px ;
+	 margin: 0 auto;
+	 display: block;
+	 text-align: center;
+	 text-transform: capitalize;
+	 font-weight: 700;
+	 font-family: 'Rubik', sans-serif;
+}
+ h3 {
+     font-size: 18px 
+}
+ h4 {
+     font-size: 21px;
+     color: #07528d;
+     margin-top: 25px;
+}
+ h5 {
+     font-size: 14px 
+}
+ h6 {
+     font-size: 13px 
+}
+
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1 
+}
+.font-25{
+    font-size: 25px;
+}
+.bold{
+    font-weight: bold;
+}
+.text-cap{
+    text-transform: capitalize;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+ul, li, ol{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none;
+     outline: none;
+     cursor: pointer;
+}
+
+ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+     opacity: .8 
+}
+
+i{
+	font-size: 30px;
+	padding: 5px;
+}
+
+
+.nav-link:hover{
+    transition: 1s;
+    color: red!important;
+  
+}
+
+.logo{
+	width: 120px;
+}
+
+.listNav {
+	display: flex;
+}
+.listNav >li {
+	margin: 0 15px;
+}
+.card{
+    /* padding: 20px; */
+    cursor: pointer;
+    /* background: #fff; */
+    /* border-radius: 2px; */
+    /*display: inline-block !important;*/
+     /*height: 600px; */
+    /*margin: 1rem;*/
+    /*position: relative;*/
+    /*width: 250px;*/
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+       height: 90%;
+       transition: 1s;
+}
+
+.card:hover{
+    transform: scale(.9,.9);
+    transition: 1s;
+}
+.content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+}
+.padd{
+    padding-top: 48px;
+}
+
+/* =====Whatsapp==== */

@@ -1,0 +1,244 @@
+/*--------------------------------------------------------lets-build---------------------------------------*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*/
+
+*{	 
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+body{
+	background: whitesmoke;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: 600;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: 120% !important;
+     color: #1f1f1f;
+     margin: 0 
+}
+
+ h1 {
+     font-size: 24px 
+}
+ h2 {
+     font-size: 22px ;
+	 margin: 0 auto;
+	 display: block;
+	 /*text-align: center;
+*/	 text-transform: capitalize;
+	 font-weight: 700;
+	 font-family: 'Rubik', sans-serif;
+}
+ h3 {
+     font-size: 18px 
+}
+h4 {
+     font-size: 21px;
+     color: #07528d;
+     margin-top: 25px;
+     font-weight: bold;
+}
+ h5 {
+     font-size: 14px 
+}
+ h6 {
+     font-size: 13px 
+}
+
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1 
+}
+
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+
+ul, li, ol{
+     list-style: none;
+     margin: 0px;
+     padding: 0px;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none;
+     outline: none;
+     cursor: pointer;
+}
+
+ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+     opacity: .8 
+}
+
+i{
+	font-size: 30px;
+	padding: 5px;
+}
+
+.card{
+    /* padding: 20px; */
+    cursor: pointer;
+    /* background: #fff; */
+    /* border-radius: 2px; */
+    /*display: inline-block !important;*/
+     /*height: 600px; */
+    /*margin: 1rem;*/
+    /*position: relative;*/
+    /*width: 250px;*/
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+       height: 90%;
+       transition: 1s;
+}
+
+.card:hover{
+    transform: scale(.9,.9);
+    transition: 1s;
+}
+
+.logo{
+	width: 120px;
+}
+
+
+.csss-card :hover{
+	/*background: blue;*/
+
+}
+
+.font-25{
+    font-size: 25px;
+}
+
+.bold{
+    font-weight: bold;
+  
+}
+
+.content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.nav-link:hover{
+        transition: 1s;
+    color: red !important;
+  
+}
+
+
+/*============================about-us==========================================*/
+img {
+    width: 100%;
+   height: 100%; 
+}
+
+.bg-images {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banner{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(49 49 49 / 75%);
+    width: 100%;
+    height: auto;
+}
+
+.ab-heading{
+    text-decoration: underline #b3b3b3;
+    text-underline-offset: 8px;
+
+}
+
+
+
+/*======================================================web-developemet-page*/
+.row .web-icons{
+     margin-top: 120px;
+
+}
+
+
+
+/*------------------------------------------------------------------ Contact -------------------------------------------------------------------*/
+ .contact-box{
+     padding: 70px 0px;
+}
+ .left-contact h2{
+     font-size: 22px;
+     font-weight: 500;
+     padding-bottom: 30px;
+}
+ .cont-line{
+     overflow: hidden;
+     margin-bottom: 30px;
+}
+ .icon-b {
+     width: 55px;
+     height: 55px;
+     text-align: center;
+     line-height: 55px;
+     font-size: 25px;
+     margin-right: 10px;
+     color: #fff;
+     border-radius: 100%;
+     background: red;
+      margin-bottom: px;
+}
+ .dit-right h4 {
+     font-size: 16px;
+     color: #3a4149;
+     font-weight: 500;
+     margin: 0;
+     padding: 0;
+}
+ .dit-right p {
+     font-size: 14px;
+     margin-top: 0;
+}
+ .dit-right a {
+     font-size: 14px;
+     color: #3a4149;
+     font-weight: 300;
+     line-height: normal;
+}
+ .dit-right a:hover{
+     color: #57cef8;
+}
+ .contact-block{
+}
+
+
+ .contact-block .form-group textarea.form-control{
+     height: 150px;
+     padding-top: 15px;
+}
+ .custom-select{
+     height: 45px;
+     font-size: 16px;
+}
+
+
+
+/*-------------------------------responsive--------------------------------------------------*/
+
